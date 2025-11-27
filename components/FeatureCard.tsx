@@ -17,10 +17,10 @@ export default function FeatureCard({ icon: Icon, title, description, onClick }:
             aria-label={`Open ${title} tool`}
         >
             {/* Gradient overlay on hover */}
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            <div className="absolute inset-0 bg-linear-to-br from-blue-500/5 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
             <div className="relative flex flex-col items-start gap-4">
-                <div className="p-4 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl group-hover:scale-110 group-hover:rotate-3 transition-all duration-300 shadow-lg">
+                <div className="p-4 bg-linear-to-br from-blue-500 to-blue-600 rounded-xl group-hover:scale-110 group-hover:rotate-3 transition-all duration-300 shadow-lg">
                     <Icon className="w-8 h-8 text-white" />
                 </div>
                 <div>

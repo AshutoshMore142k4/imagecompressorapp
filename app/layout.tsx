@@ -51,7 +51,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       </head>
-      <body className="antialiased bg-gradient-to-br from-blue-50 via-white to-purple-50 min-h-screen">
+      <body className="antialiased bg-linear-to-br from-blue-50 via-white to-purple-50 min-h-screen">
         {children}
       </body>
     </html>
